@@ -8,7 +8,7 @@ function Header(props) {
     <header>
       <h1>
         <HighlightIcon />
-        Keeper
+        Noted!
       </h1>
       <SearchBar onSearch={props.onSearch} onClear={props.onClear} value={props.value} />
     </header>
