@@ -1,0 +1,178 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #ccc;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/food.png");
+  padding: 0 16px;
+}
+
+header {
+  background-color: #f5ba13;
+  display: flex;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+
+footer {
+  position: absolute;
+  text-align: right;
+  bottom: 0;
+  width: 100%;
+  height: 1.5rem;
+  padding-right: 2rem;
+}
+
+footer p {
+  color: #ccc;
+}
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+}
+.note h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.note button {
+  position: relative;
+  float: right;
+  
+  background-color: #fff;
+  color: #f5ba13;
+  border: none;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+}
+
+form.create-note {
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+form.create-note input,
+form.create-note textarea {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+
+form.create-note input,
+.edit-form input
+{
+  font-weight: 500;
+  padding: 4px;
+}
+
+.edit-form textarea,
+form.create-note textarea{
+  padding: 0 4px;
+  line-height: 2rem;
+}
+form.create-note button {
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  background: #f5ba13;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+
+.search-bar{
+  margin-left: 10em;
+  padding-left: 1%;
+  width: 40%;
+  background: rgb(239, 239, 239);
+  border-radius: 7px;
+  display: flex;
+  
+}
+
+.search-bar input{
+  width: 83%;
+  border: none;
+  background: #ffdb77;
+  background: rgb(239, 239, 239);
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+
+#no-match{
+  margin-top: 2rem;
+  margin-left: 43.5%;
+  font-size: 1.2rem;
+}
+
+.edit-form input,
+.edit-form textarea {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+
+.edit-form input:focus,
+.edit-form textarea:focus {
+  outline: none !important;
+  outline-offset: none !important;
+  box-shadow: none;
+}
+
