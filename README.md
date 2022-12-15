@@ -1,3 +1,9 @@
+# Noted-The Note Keeping App
+
+React based note keeping app equipped with functionalities of adding, editing and deleting the notes. Along with this, it also has the feature to search for notes based on the content in them. 
+Visit: https://noted-the-note-keeping-app.netlify.app/ to view the deployed website.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
